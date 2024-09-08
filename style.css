@@ -1,0 +1,97 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url("penis.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.wrapper {
+  text-align: center;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: Lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.data {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  text-transform: uppercase;
+}
+
+#dataphil {
+  color: #ff6347;
+}
+
+#datamama {
+  color: #4682b4;
+}
+
+#datapapa {
+  color: #32cd32;
+}
+
+#dataferien {
+  color: #8a2be2;
+}
+
+#dataFPET {
+  color: #ff6347;
+}
+
+#dataDeutsch {
+  color: #4682b4;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #0e0f13;
+  color: white;
+}
